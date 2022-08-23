@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+
+</style>
+<script src=""></script>
+
+<body>
+
+    <img src="img_la.jpg" alt="LA" style="width:100%">
+
+    <div class="">
+        <h1 id="title">Survey: Da Holiday Season is here!</h1>
+
+        <p id="description">
+            Spring is finally here and we are eager to pull out those bathing suits and sunscreen. Let's get a feel for what everyone has on their agendas for this season.</p>
+
+        <p>Complete the details below and stand a chance to win 1 of 5 Ford Rangers!</p>
+
+
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">First name:</label>
+                <input type="text" id="name" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label id="lname-label" for="lname">Last name:</label>
+                <input type="text" id="lname" placeholder="Enter your last name">
+            </div>
+
+            <div class="form-group">
+                <label id="number-label" for="number">Phone Number</label>
+                <input type="number" id="number" name="phone" placeholder="+27 76 8760 865" pattern="^d{3}-d{3}-d{4}" min="10" max="10" required>
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" for="emailaddress">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <h3>From the dropdown, tell us who you will be spending your holiday with:</h3>
+
+                <label id="dropdown" for="companiondropdown" id="dropdown" action="/action_page.php">
+  My Companion:     
+    <select name="companiondropdown" id="companion"> 
+    <option value1=selected="selected">Select Companion</option>
+    <option value1=selected="selected">My Furry Child</option>
+    <option Value2=selected="selected">Little Bro</option>
+    <option value3=selected="selected">Yoda</option>
+    <option value3=selected="selected">SpiderMan</option>
+    <option value3=selected="selected">Spark</option>
+    <option value3=selected="selected">Loki</option>
+    <option value3=selected="selected">IronMan</option>   
+  </select>
+  <br><br><br>
+ 
+ </div> 
+
+<div class="form-group"> 
+<h3> Select your favourite sport for this season:</h3>
+ <input type="radio" id="sdiving" name="fav_sport"  value="ScoobaDiving">
+  <label for="html">Scooba Diving</label><br>
+
+                <input type="radio" id="bunjeejumping" name="fav_sport" value="bunjeejumping">
+                <label for="bunjeejumping">Bunjee Jumping</label><br>
+
+                <input type="radio" id="skydiving" name="fav_sport" value="SkyDiving">
+                <label for="skydiving">Sky Diving</label><br>
+
+                <input type="radio" id="skiing" name="fav_sport" value="Skiing">
+                <label for="skiing">Skiing</label><br>
+
+                <input type="radio" id="StayingHome" name="fav_sport" value="StayingHome">
+                <label for="StayingHome">Staying Home</label><br>
+                <br>
+            </div>
+
+            <div class="form-group">
+                <h3> Which set of wheels do you prefer?</h3>
+                <form>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Superbike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Boat">
+                    <label for="vehicle2"> Yacht</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Car">
+                    <label for="vehicle3"> Motorcar</label>
+            </div>
+
+
+
+            <h3>Share with us your thoughts if you think we can up our game!</h3>
+            <textarea id="comments" name="commentsection" rows="5" cols="100">
+</textarea>
+            <br><br><br>
+
+            <div class="form-group">
+                <button id="submit" type="submit" class="submit-button">Submit</button>
+            </div>
+
+            </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+
+</html>
